@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'com.novoda.bintray-release'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
+
+
+def packageName = 'com.voler'
+def libraryVersion = '1.0.0'
+
+publish {
+    userOrg = 'voler-han'      // bintray注册的用户名
+    groupId = packageName
+    artifactId = project.getName()// bintray创建的package
+    publishVersion = libraryVersion
+    description = 'compile-time annotation '
+    website = "https://github.com/voler-JHL/${rootProject.name}"
+}

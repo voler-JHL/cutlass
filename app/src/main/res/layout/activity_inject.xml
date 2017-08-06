@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/things"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="cutlass 1.0.0 内测版"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:textColor="#fff"
+        style="@style/textView"/>
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:textColor="#fff"
+        style="@style/textView" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:textColor="#fff"
+        style="@style/textView" />
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:textColor="#fff"
+        style="@style/textView" />
+
+    <TextView
+        android:id="@+id/tv_5"
+        android:textColor="#fff"
+        android:layout_marginTop="56dp"
+        style="@style/textView" />
+</LinearLayout>
