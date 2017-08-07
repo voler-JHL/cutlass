@@ -58,18 +58,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-# 用法
-在根build.gradle中添加maven { url "https://dl.bintray.com/voler-han/maven" }
-过几天jcenter审核通过，就不用添加了
-```
-allprojects {
-    repositories {
-        jcenter()
-        maven { url "https://dl.bintray.com/voler-han/maven" }
-    }
-}
-```
-引入
+# 引入
 ```
     compile 'com.voler:cutlass-annotation:1.0.0'
     annotationProcessor 'com.voler:cutlass-compiler:1.0.0'
